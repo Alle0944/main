@@ -1,0 +1,530 @@
+html,body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow-x: initial;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	}
+.menu{
+	width: 100%;
+	height: 80px;
+	background: rgba(0,0,0,0.5);
+	margin: 0 auto;
+	position: fixed;
+	z-index: 1;
+	cursor: pointer;
+}
+.nav{
+	width: 750px;
+	height: 80px;
+	position: relative;
+	left: 50%;
+	margin-left: -375px;
+}
+a{
+	text-decoration: none;
+	margin-right: 30px;
+	line-height: 80px;
+}
+.menuhome{
+	color: white;
+	font-family: mencken-std, sans-serif;
+	font-size: 25pt;
+	z-index: 1;
+	opacity: 100%;
+}
+.menuearly{
+	color: white;
+	font-family: mencken-std, sans-serif;
+	font-size: 25pt;
+	z-index: 1;
+	opacity: 100%;
+}
+.menueighties{
+	color: white;
+	font-family: mencken-std, sans-serif;
+	font-size: 25pt;
+	z-index: 1;
+	opacity: 100%;
+}
+.menunineties{
+	color: white;
+	font-family: mencken-std, sans-serif;
+	font-size: 25pt;
+	z-index: 1;
+	opacity: 100%;
+}
+.menutwothousands{
+	color: white;
+	font-family: mencken-std, sans-serif;
+	font-size: 25pt;
+	z-index: 1;
+	opacity: 100%;
+}
+.menutwentytens{
+	color: white;
+	font-family: mencken-std, sans-serif;
+	font-size: 25pt;
+	z-index: 1;
+	opacity: 100%;
+}
+.home{
+	width: 100%;
+	height: 100%;
+	background-image:url(home.jpeg);
+	background-size: cover;
+	background-position:0% 15%;
+	position: static;
+}
+.headermain{
+	font-size: 60pt;
+	color: white;
+	font-family: mencken-std, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	margin-left: 10%;
+	margin-top: 8%;
+	position: absolute;
+}
+.mainbody{
+	color: white;
+	width: 350px;
+	font-family: study, serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-left: 11%;
+	margin-top: 14%;
+	position: absolute;
+	z-index: 1;
+}
+.blockheader{
+	color: white;
+	font-size: 80px;
+	font-family: mencken-std, sans-serif;
+	margin-left: 30px;
+	margin-top: 45px;
+	margin-bottom: 20px;
+	
+}
+.blockbody{
+	color: white;
+	font-size: 15px;
+	font-family: study, serif;
+	width: 550px;
+	height: 500px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 0px;
+	line-height: 130%;
+}
+.early{
+	width: 100%;
+	height: 100%;
+	background-image:url(second.jpg);
+	background-size: cover;
+	background-position: center;
+	position: static;
+
+}
+.blockone{
+	height: 100%;
+	width: 40%;
+	background: rgba(0,0,0,0.75);
+	float: right;
+}
+.eighties{
+	width: 100%;
+	height: 100%;
+	background-image:url(third.jpg);
+	background-size: cover;
+	background-position: center;
+	position: static;
+
+}
+.blocktwo{
+	height: 100%;
+	width: 40%;
+	background: rgba(0,0,0,0.75);
+	float: left;
+}
+.albumsone{
+	width: 100%;
+	height: 400px;
+	background: black;
+	position: static;
+	margin-top: 0px;
+}
+.nineties{
+	width: 100%;
+	height: 100%;
+	background-image:url(fourth.jpg);
+	background-size: cover;
+	background-position: center;
+	position: static;
+}
+.blockthree{
+	height: 100%;
+	width: 40%;
+	background: rgba(0,0,0,0.75);
+	float: right;
+}
+.albumstwo{
+	width: 100%;
+	height: 400px;
+	background: black;
+	position: static;
+}
+.twothousands{
+	width: 100%;
+	height: 100%;
+	background-image:url(fifth.jpg);
+	background-size: cover;
+	background-position: center;
+	position: static;
+}
+.blockfour{
+	height: 100%;
+	width: 40%;
+	background: rgba(0,0,0,0.75);
+	float: left;
+}
+.albumsthree{
+	width: 100%;
+	height: 400px;
+	background: black;
+	position: static;
+}
+.twentytens{
+	width: 100%;
+	height: 100%;
+	background-image:url(sixth.jpg);
+	background-size: cover;
+	background-position: center;
+	position: static;
+}
+.blockfive{
+	height: 100%;
+	width: 40%;
+	background: rgba(0,0,0,0.75);
+	float: right;
+}
+.albumsfour{
+	width: 100%;
+	height: 400px;
+	background: black;
+	position: static;
+}
+.backtotop{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	position: static;
+	margin:0,auto;
+
+}
+.totop{
+	color: white;
+	font-family: mencken-std, sans-serif;
+	font-size: 25pt;
+	opacity: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.notablealbums{
+	color: white;
+	font-size: 25pt;
+	font-family: mencken-std, sans-serif;
+	width: 250px;
+	height: auto;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 30px;
+	z-index: 1;
+}
+.inneralbums{
+	width: 1600px;
+	height: 300px;
+	position: relative;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-60%);
+}
+.albumcover{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(public.jpg);
+	background-size: contain;
+}
+.albumcovertwo{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(StraightOuttaComptonN.W.A..jpg);
+	background-size: contain;
+}
+.albumcoverthree{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(dmc.jpg);
+	background-size: contain;
+}
+.albumcoverfour{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(Licensed_to_ill.jpg);
+	background-size: contain;
+}
+.albumcoverfive{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(dre.jpg);
+	background-size: contain;
+}
+.albumcoversix{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(tang.jpg);
+	background-size: contain;
+}
+.albumcoverseven{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(dogg.jpg);
+	background-size: contain;
+}
+.albumcovereight{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(220px-Alleyezonme.jpg);
+	background-size: contain;
+}
+.albumcovernine{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(IllmaticNas.jpg);
+	background-size: contain;
+}
+ .albumcoverten{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(Ready_To_Die.jpg);
+	background-size: contain;
+}
+ .albumcovereleven{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(2013Eminem_themarshallmatherslp600G050813-1.jpg);
+	background-size: contain;
+}
+ .albumcovertwelve{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(The_Blueprint.png);
+	background-size: contain;
+}
+ .albumcoverthirteen{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(fif.jpeg);
+	background-size: contain;
+}
+ .albumcoverfourteen{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(R-6035515-1591382584-5476.jpeg.jpg);
+	background-size: contain;
+}
+ .albumcoverfifteen{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(Kanyewest_collegedropout.jpg);
+	background-size: contain;
+}
+ .albumcoversixteen{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(61vUslTEbFL._SL1200_.jpg);
+	background-size: contain;
+}
+ .albumcoverseventeen{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(Drake_-_Take_Care_cover.jpg);
+	background-size: contain;
+}
+ .albumcovereightteen{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(81VcA8-kuZL._SX425_.jpg);
+	background-size: contain;
+}
+ .albumcovernineteen{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(713N4ZIYsEL._SY355_.jpg);
+	background-size: contain;
+}
+ .albumcovertwenty{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(81sKEPIbmxL._SL1500_.jpg);
+	background-size: contain;
+}
+ .albumcovertwentyone{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(71RDpVmr2hL._SL1500_.jpg);
+	background-size: contain;
+}
+ .albumcovertwentytwo{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image:url(CKFinallyRichStandard.png);
+	background-size: contain;
+}
+
+
+
+
+
+
+
+
+
